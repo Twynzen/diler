@@ -1,0 +1,72 @@
+2025-05-26 18:48:39,844 - UnityRPG - INFO - [bot.py.py:254] - ✅ Base de datos avanzada inicializada
+2025-05-26 18:48:39,845 - UnityRPG - WARNING - [bot.py.py:272] - ⚠️ Archivo de credenciales de Google no encontrado
+2025-05-26 18:48:39,913 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Espada de Hierro creado
+2025-05-26 18:48:39,922 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Armadura de Cuero creado
+2025-05-26 18:48:39,933 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Amuleto de Maná creado
+2025-05-26 18:48:39,942 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Botas Élvicas creado
+2025-05-26 18:48:39,981 - UnityRPG - INFO - [bot.py.py:1560] - 🚀 Iniciando Unity RPG Bot Avanzado...
+2025-05-26 18:48:39,981 - UnityRPG - INFO - [bot.py.py:1561] - 📊 Google Sheets: ❌ Desconectado
+2025-05-26 18:48:43,535 - UnityRPG - INFO - [bot.py.py:974] - ✅ Diler Avanzado conectado como Diler#2517
+2025-05-26 18:48:43,872 - UnityRPG - INFO - [bot.py.py:978] - 📡 8 comandos slash sincronizados
+2025-05-26 18:49:07,017 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Vaelen Drakthorn
+2025-05-26 18:49:07,025 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Vaelen Drakthorn
+2025-05-26 18:49:07,340 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Vael'Sharan
+2025-05-26 18:49:07,349 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Vael'Sharan
+2025-05-26 18:50:03,516 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Elaria Moonshade
+2025-05-26 18:50:03,524 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Elaria Moonshade
+2025-05-26 18:51:58,855 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Kisara
+2025-05-26 18:51:58,862 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Kisara
+2025-05-26 18:51:59,273 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Lucian
+2025-05-26 18:51:59,281 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Lucian
+2025-05-26 18:57:59,228 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para gabimaru
+2025-05-26 18:57:59,236 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: gabimaru
+2025-05-26 19:06:23,658 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Narrador
+2025-05-26 19:06:23,666 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Narrador
+2025-05-26 19:11:55,658 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Morigan
+2025-05-26 19:19:14,041 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Sable rojo creado
+2025-05-26 19:22:36,696 - UnityRPG - INFO - [bot.py.py:415] - ✅ Item Sable negro creado
+2025-05-26 19:30:16,561 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:36:00,801 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Rolena Skystrike
+2025-05-26 19:36:00,808 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Rolena Skystrike
+2025-05-26 19:37:36,467 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Raze
+2025-05-26 19:37:36,475 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Raze
+2025-05-26 19:38:02,358 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:38:02,359 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:38:21,590 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:38:21,591 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:38:59,810 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Lyra Valdaren
+2025-05-26 19:38:59,819 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Lyra Valdaren
+2025-05-26 19:39:23,379 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Ukogi
+2025-05-26 19:39:23,390 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Ukogi
+2025-05-26 19:39:44,992 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:39:44,992 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:40:27,531 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Saun Woodman
+2025-05-26 19:40:27,539 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Saun Woodman
+2025-05-26 19:42:07,406 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Dyno
+2025-05-26 19:42:07,414 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Dyno
+2025-05-26 19:42:47,688 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:42:47,688 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:43:02,954 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:43:52,311 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:45:31,632 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Narrador឵
+2025-05-26 19:45:31,640 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Narrador឵
+2025-05-26 19:47:47,209 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Arcadio
+2025-05-26 19:47:47,216 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Arcadio
+2025-05-26 19:50:07,621 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Yurany
+2025-05-26 19:50:07,629 - UnityRPG - INFO - [bot.py.py:954] - ✅ TupperBox auto-registrado: Yurany
+2025-05-26 19:50:31,339 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:50:31,783 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para Fëanor
+2025-05-26 19:50:31,784 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:54:47,445 - UnityRPG - INFO - [bot.py.py:664] - ✅ Excel avanzado creado para pepe
+2025-05-26 20:37:58,492 - UnityRPG - INFO - [bot.py.py:1573] - 🛑 Bot detenido por el usuario
+2025-05-26 20:37:58,493 - UnityRPG - INFO - [bot.py.py:1577] - 👋 Unity RPG Bot Avanzado cerrado
+2025-05-26 20:38:05,133 - UnityRPG - INFO - [bot.py.py:254] - ✅ Base de datos avanzada inicializada
+2025-05-26 20:38:05,134 - UnityRPG - WARNING - [bot.py.py:272] - ⚠️ Archivo de credenciales de Google no encontrado
+2025-05-26 20:38:05,175 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Espada de Hierro: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,176 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Armadura de Cuero: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,177 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Amuleto de Maná: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,177 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Botas Élvicas: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,213 - UnityRPG - INFO - [bot.py.py:1560] - 🚀 Iniciando Unity RPG Bot Avanzado...
+2025-05-26 20:38:05,213 - UnityRPG - INFO - [bot.py.py:1561] - 📊 Google Sheets: ❌ Desconectado
+2025-05-26 20:38:07,277 - UnityRPG - INFO - [bot.py.py:1573] - 🛑 Bot detenido por el usuario
+2025-05-26 20:38:07,278 - UnityRPG - INFO - [bot.py.py:1577] - 👋 Unity RPG Bot Avanzado cerrado

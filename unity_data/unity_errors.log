@@ -1,0 +1,12 @@
+2025-05-26 19:38:02,359 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:38:21,591 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:39:44,992 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:42:47,688 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 19:43:02,954 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:43:52,311 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:50:31,339 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: [Errno 22] Invalid argument: 'unity_data/personajes/activos/¿?.xlsx'
+2025-05-26 19:50:31,784 - UnityRPG - ERROR - [bot.py.py:958] - ❌ Error auto-registrando tupper: UNIQUE constraint failed: personajes.nombre
+2025-05-26 20:38:05,175 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Espada de Hierro: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,176 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Armadura de Cuero: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,177 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Amuleto de Maná: UNIQUE constraint failed: items.nombre
+2025-05-26 20:38:05,177 - UnityRPG - ERROR - [bot.py.py:419] - ❌ Error creando item Botas Élvicas: UNIQUE constraint failed: items.nombre
