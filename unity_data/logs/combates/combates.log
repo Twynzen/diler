@@ -12,3 +12,21 @@
 2025-05-26 20:38:12,630 - [COMBATE] - INFO - 🎭 Sistema de roleplay profundo activado
 2025-05-26 20:38:12,631 - [COMBATE] - INFO - ⚡ Sin límites de puntuación habilitado
 2025-05-26 20:38:12,631 - [COMBATE] - INFO - 🎲 Menús interactivos listos
+2025-05-26 20:38:16,153 - [COMBATE] - INFO - ✅ Diler DEFINITIVO conectado como Diler#2517
+2025-05-26 20:38:16,684 - [COMBATE] - INFO - 📡 7 comandos maestros sincronizados
+2025-05-26 20:59:57,698 - [COMBATE] - INFO - ✅ NPC maestro creado: Wendigo
+2025-05-26 21:07:57,238 - [COMBATE] - INFO - ✅ Excel maestro creado para Fëanor
+2025-05-26 21:07:57,456 - [COMBATE] - ERROR - ❌ Error creando personaje: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.0.value: Must be 1024 or fewer in length.
+2025-05-26 21:09:24,648 - [COMBATE] - INFO - ✅ Excel maestro creado para Fëanor
+2025-05-26 21:09:24,649 - [COMBATE] - ERROR - ❌ Error creando personaje: UNIQUE constraint failed: personajes.nombre
+2025-05-26 21:11:05,718 - [COMBATE] - INFO - ✅ Excel maestro creado para Fëanor
+2025-05-26 21:11:05,719 - [COMBATE] - ERROR - ❌ Error creando personaje: UNIQUE constraint failed: personajes.nombre
+2025-05-26 21:13:51,793 - [COMBATE] - INFO - ✅ Excel maestro creado para Finn
+2025-05-26 21:15:58,485 - [COMBATE] - INFO - ✅ Excel maestro creado para Arcadio
+2025-05-26 21:36:55,021 - [COMBATE] - INFO - ✅ Vida de Wendigo actualizada a 100
+2025-05-26 21:37:20,802 - [COMBATE] - INFO - ✅ NPC maestro creado: Oso mutante
+2025-05-26 21:38:57,118 - [COMBATE] - INFO - [DADOS] Fëanor - Ataque fisico: D20(13) + Fuerza(6) + Bonus(4) = 23
+2025-05-26 21:39:52,253 - [COMBATE] - INFO - [DADOS] Fëanor - Ataque magico: D20(10) + Mana(6) + Bonus(10) = 26
+2025-05-26 22:26:14,661 - [COMBATE] - INFO - 🛑 Bot maestro detenido por el usuario
+2025-05-26 22:26:14,661 - [COMBATE] - INFO - 👋 Unity RPG Bot DEFINITIVO cerrado - ¡Que continúen las aventuras!
