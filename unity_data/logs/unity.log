@@ -3,3 +3,698 @@
 2025-05-26 22:26:17,608 - INFO - ✅ Contenido por defecto creado
 2025-05-26 22:26:17,609 - INFO - 🚀 Iniciando Unity RPG Bot Optimizado...
 2025-05-26 22:26:17,609 - INFO - logging in using static token
+2025-05-26 22:26:19,091 - INFO - Shard ID None has connected to Gateway (Session ID: d5b3b0a17a1dec584238ea8212ef382c).
+2025-05-26 22:26:21,124 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-26 22:26:22,544 - INFO - 📡 11 comandos sincronizados
+2025-05-26 22:29:04,144 - INFO - ✅ Excel creado para Fëanor
+2025-05-26 22:29:04,145 - ERROR - ❌ Error creando personaje: UNIQUE constraint failed: personajes.nombre
+2025-05-26 22:29:33,126 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-26 22:29:43,511 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-26 23:15:41,056 - INFO - [DADOS] Fëanor - Ataque distancia: D20(20) + Destreza(18) + Bonus(0) = 38
+2025-05-27 00:12:59,619 - INFO - Shard ID None has successfully RESUMED session d5b3b0a17a1dec584238ea8212ef382c.
+2025-05-27 00:20:03,022 - INFO - 🛑 Bot detenido por el usuario
+2025-05-27 00:20:03,023 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-27 00:20:06,016 - INFO - ✅ Base de datos inicializada
+2025-05-27 00:20:06,017 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-27 00:20:06,028 - INFO - ✅ Contenido por defecto creado
+2025-05-27 00:20:06,028 - INFO - 🚀 Iniciando Unity RPG Bot Mejorado...
+2025-05-27 00:20:06,028 - INFO - logging in using static token
+2025-05-27 00:20:07,370 - INFO - Shard ID None has connected to Gateway (Session ID: 1a9c6fb4bb21c5af62370481376f5813).
+2025-05-27 00:20:09,411 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-27 00:20:09,765 - INFO - 📡 14 comandos sincronizados
+2025-05-27 00:28:27,881 - INFO - ✅ Imagen guardada: Yurany_9fcc4a6f.webp
+2025-05-27 00:28:28,153 - INFO - ✅ Excel creado para Yurany
+2025-05-27 00:28:28,155 - ERROR - ❌ Error creando personaje: table personajes has no column named imagen_local
+2025-05-27 00:30:07,058 - INFO - ✅ Excel creado para Yurany
+2025-05-27 00:30:07,059 - ERROR - ❌ Error creando personaje: table personajes has no column named imagen_local
+2025-05-27 06:41:55,306 - INFO - ✅ Base de datos inicializada
+2025-05-27 06:41:55,307 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-27 06:41:55,320 - INFO - ✅ Contenido por defecto creado
+2025-05-27 06:41:55,320 - INFO - 🚀 Iniciando Unity RPG Bot Mejorado...
+2025-05-27 06:41:55,320 - INFO - logging in using static token
+2025-05-27 06:41:56,694 - INFO - Shard ID None has connected to Gateway (Session ID: 83bc6cd0683d1680c82e9c591fa4f815).
+2025-05-27 06:41:58,775 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-27 06:41:58,981 - INFO - 📡 14 comandos sincronizados
+2025-05-27 06:50:23,750 - INFO - ✅ Excel creado para Dante
+2025-05-27 06:50:23,751 - ERROR - ❌ Error creando personaje: table personajes has no column named imagen_local
+2025-05-27 06:51:56,597 - INFO - ✅ Excel creado para Lars
+2025-05-27 06:51:56,598 - ERROR - ❌ Error creando personaje: table personajes has no column named imagen_local
+2025-05-27 07:28:53,815 - INFO - 🛑 Bot detenido por el usuario
+2025-05-27 07:28:53,816 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-27 07:29:01,262 - INFO - ✅ Base de datos inicializada
+2025-05-27 07:29:01,262 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-27 07:29:01,265 - ERROR - ❌ Error creando contenido por defecto: table items has no column named efecto_resistencia
+2025-05-27 07:29:01,265 - INFO - 🚀 Iniciando Unity RPG Bot Corregido...
+2025-05-27 07:29:01,265 - INFO - logging in using static token
+2025-05-27 07:29:02,635 - INFO - Shard ID None has connected to Gateway (Session ID: fbe58418ec140e44cf6663f771b7eb99).
+2025-05-27 07:29:04,673 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-27 07:29:05,002 - INFO - 📡 14 comandos sincronizados
+2025-05-27 07:35:35,474 - INFO - ✅ Excel creado para Andariel
+2025-05-27 07:40:33,373 - INFO - ✅ Imagen guardada: Andariel_18335085.png
+2025-05-27 07:40:33,394 - INFO - ✅ Excel creado para Andariel
+2025-05-27 09:31:33,531 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 09:51:41,462 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 10:57:52,393 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 11:47:19,610 - INFO - ✅ Imagen guardada: Arcadio_bbc76114.png
+2025-05-27 11:47:19,693 - INFO - ✅ Excel creado para Arcadio
+2025-05-27 11:47:19,705 - ERROR - ❌ Error creando personaje: UNIQUE constraint failed: personajes.nombre
+2025-05-27 11:49:11,791 - INFO - ✅ Imagen guardada: Arcadio_0f3f7ab5.png
+2025-05-27 11:49:11,813 - INFO - ✅ Excel creado para Arcadio
+2025-05-27 12:30:00,806 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 13:12:21,104 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 14:47:23,764 - INFO - ✅ Excel creado para Rosaria
+2025-05-27 15:06:36,603 - INFO - ✅ Excel creado para Rosaria
+2025-05-27 15:10:21,097 - ERROR - ❌ Error eliminando personaje: [WinError 183] No se puede crear un archivo que ya existe: 'unity_data/personajes/activos/Rosaria.xlsx' -> 'unity_data/personajes/archivados/Rosaria.xlsx'
+2025-05-27 15:13:54,392 - INFO - ✅ Imagen guardada: Rosaria_2c15e1e2.png
+2025-05-27 15:13:54,412 - INFO - ✅ Excel creado para Rosaria
+2025-05-27 15:18:30,763 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:18:30,764 - INFO - [DADOS] Rosaria - Ataque fisico: D20(7) + Fuerza(4) + Bonus(0) = 11
+2025-05-27 15:19:44,000 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:19:44,001 - INFO - [DADOS] Rosaria - Defensa magica: D20(14) + Destreza(7) + Bonus(0) = 21
+2025-05-27 15:20:19,870 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:20:19,870 - INFO - [DADOS] Rosaria - Ataque magico: D20(6) + Mana(8) + Bonus(2) = 16
+2025-05-27 15:24:19,711 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:25:19,785 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:41:30,942 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:41:30,942 - INFO - [DADOS] Arcadio - Ataque fisico: D20(15) + Fuerza(5) + Bonus(0) = 20
+2025-05-27 15:41:52,671 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:41:52,671 - INFO - [DADOS] Arcadio - Ataque fisico: D20(18) + Fuerza(5) + Bonus(10) = 33
+2025-05-27 15:43:28,392 - INFO - ✅ Imagen guardada: Lanza Carmesí de Tharz'Ael_8ada439f.png
+2025-05-27 15:43:28,393 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:44:05,957 - ERROR - ❌ Error mostrando inventario: no such column: i.efecto_resistencia
+2025-05-27 15:44:22,964 - ERROR - ❌ Error mostrando inventario: no such column: i.efecto_resistencia
+2025-05-27 15:48:00,717 - INFO - ✅ Imagen guardada: Lanza Carmesí de Tharz'Ael_1b1ab59d.png
+2025-05-27 15:48:00,718 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:48:01,285 - INFO - ✅ Imagen guardada: Espada de Jason_350a6948.png
+2025-05-27 15:48:01,286 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:48:43,811 - INFO - ✅ Excel creado para pepe
+2025-05-27 15:49:24,517 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:50:03,306 - INFO - ✅ Imagen guardada: Espada del alba_84413c08.png
+2025-05-27 15:50:03,308 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:51:24,816 - INFO - ✅ Imagen guardada: Espada del alba_6b75fd50.png
+2025-05-27 15:51:24,817 - ERROR - ❌ Error creando item: table items has no column named efecto_resistencia
+2025-05-27 15:53:19,013 - ERROR - ❌ Error calculando bonuses: no such column: i.efecto_resistencia
+2025-05-27 15:53:19,013 - INFO - [DADOS] Morigan - Ataque fisico: D20(16) + Fuerza(10) + Bonus(0) = 26
+2025-05-27 15:59:38,942 - INFO - Shard ID None has successfully RESUMED session fbe58418ec140e44cf6663f771b7eb99.
+2025-05-27 16:11:59,697 - INFO - 🛑 Bot detenido por el usuario
+2025-05-27 16:11:59,698 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-27 16:12:41,001 - INFO - ✅ Columna efecto_resistencia agregada a items
+2025-05-27 16:12:41,002 - INFO - ✅ Base de datos inicializada
+2025-05-27 16:12:41,003 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-27 16:12:41,015 - INFO - ✅ Contenido por defecto creado
+2025-05-27 16:12:41,015 - INFO - 🚀 Iniciando Unity RPG Bot Corregido...
+2025-05-27 16:12:41,016 - INFO - logging in using static token
+2025-05-27 16:12:42,509 - INFO - Shard ID None has connected to Gateway (Session ID: 6dd5d2c707e8c83b20631f88475ef609).
+2025-05-27 16:12:44,565 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-27 16:12:44,788 - INFO - 📡 14 comandos sincronizados
+2025-05-27 16:14:35,279 - INFO - ✅ Imagen guardada: Espada de Jason_63a544cd.png
+2025-05-27 16:32:40,369 - INFO - ✅ Imagen guardada: Lanza Carmesí de Tharz'Ael_2b534930.png
+2025-05-27 17:26:00,734 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-27 18:59:44,448 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-27 20:06:02,564 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-27 22:31:10,885 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 01:39:43,891 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 03:51:29,891 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 03:59:07,064 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 04:06:18,363 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 04:42:48,823 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 06:14:16,579 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 06:41:49,856 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 06:43:53,721 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 07:52:41,711 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 08:33:58,789 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 09:04:55,801 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 09:26:56,130 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 12:32:53,298 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 14:11:00,697 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 15:08:27,840 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 15:20:36,179 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 15:37:59,100 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 16:48:28,679 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 18:26:59,746 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 19:58:49,961 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 20:38:46,189 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 20:57:54,643 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 21:54:23,794 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-28 22:04:49,762 - INFO - ✅ Imagen guardada: Fëanor_9f677a6d.png
+2025-05-28 22:04:50,139 - INFO - ✅ Excel creado para Fëanor
+2025-05-28 22:04:50,172 - ERROR - ❌ Error creando personaje: UNIQUE constraint failed: personajes.nombre
+2025-05-28 22:04:59,644 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-28 22:05:11,021 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-28 22:05:38,149 - INFO - [DADOS] Fëanor - Ataque fisico: D20(6) + Fuerza(16) + Bonus(0) = 22
+2025-05-28 22:11:05,981 - INFO - ✅ Imagen guardada: Sable blanco_344271a7.png
+2025-05-28 22:12:14,170 - INFO - ✅ Imagen guardada: Raven Carmine_324b4dcf.png
+2025-05-28 22:12:14,208 - INFO - ✅ Excel creado para Raven Carmine
+2025-05-28 22:56:22,082 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-28 22:56:37,805 - ERROR - ❌ Error mostrando info: 400 Bad Request (error code: 50035): Invalid Form Body
+In embeds.0.fields.2.value: Must be 1024 or fewer in length.
+2025-05-28 23:00:42,963 - INFO - [DADOS] Morigan - Ataque fisico: D20(11) + Fuerza(10) + Bonus(0) = 21
+2025-05-28 23:00:57,601 - INFO - [DADOS] Raven Carmine - Ataque magico: D20(14) + Mana(20) + Bonus(0) = 34
+2025-05-28 23:07:12,824 - INFO - ✅ Imagen guardada: Feanor_d4d8e9b4.jpg
+2025-05-28 23:07:12,860 - INFO - ✅ Excel creado para Feanor
+2025-05-28 23:33:19,783 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 00:56:41,134 - WARNING - Can't keep up, shard ID None websocket is 50.5s behind.
+2025-05-29 01:55:31,470 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 05:14:45,176 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 06:37:40,113 - INFO - [DADOS] Arcadio - Ataque fisico: D20(2) + Fuerza(5) + Bonus(3) = 10
+2025-05-29 06:39:44,021 - INFO - ✅ Imagen guardada: Yurany_a7d6975e.png
+2025-05-29 06:39:44,052 - INFO - ✅ Excel creado para Yurany
+2025-05-29 06:40:10,049 - INFO - [DADOS] Yurany - Defensa fisica: D20(17) + Resistencia(6) + Bonus(1) = 24
+2025-05-29 07:00:05,099 - INFO - ✅ Imagen guardada: Finn_43d57bec.jpg
+2025-05-29 07:00:05,130 - INFO - ✅ Excel creado para Finn
+2025-05-29 08:44:09,758 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 10:22:53,611 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 10:30:52,629 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 10:42:55,580 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 11:05:00,589 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 12:03:02,554 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 12:58:59,564 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 13:14:45,719 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 14:20:52,157 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 14:21:08,864 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 14:46:26,855 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 16:33:02,305 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 17:55:21,346 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 17:56:02,963 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 20:34:27,628 - INFO - Shard ID None has successfully RESUMED session 6dd5d2c707e8c83b20631f88475ef609.
+2025-05-29 21:35:05,147 - INFO - 🛑 Bot detenido por el usuario
+2025-05-29 21:35:05,148 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-29 21:35:13,526 - INFO - ✅ Base de datos inicializada
+2025-05-29 21:35:13,527 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-29 21:35:13,540 - INFO - ✅ Contenido por defecto creado
+2025-05-29 21:35:13,540 - INFO - 🚀 Iniciando Unity RPG Bot Corregido...
+2025-05-29 21:35:13,540 - INFO - logging in using static token
+2025-05-29 21:35:15,100 - INFO - Shard ID None has connected to Gateway (Session ID: f859e7c2c7fd04fe89804fd7e7498969).
+2025-05-29 21:35:17,149 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-29 21:35:17,594 - INFO - 📡 14 comandos sincronizados
+2025-05-29 22:07:17,386 - INFO - [DADOS] Morigan - Ataque fisico: D20(17) + Fuerza(10) + Bonus(0) = 27
+2025-05-29 22:09:58,733 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:10:18,575 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:10:51,786 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:11:22,534 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:12:02,704 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-29 22:12:46,977 - INFO - ✅ Imagen guardada: Granbaj_bb7a0b50.jpg
+2025-05-29 22:12:46,978 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:13:08,364 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-29 22:14:06,558 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-29 22:15:18,938 - INFO - ✅ Imagen guardada: Khajes_478445d2.png
+2025-05-29 22:15:18,975 - INFO - ✅ Excel creado para Khajes
+2025-05-29 22:15:46,155 - ERROR - Ignoring exception in command 'info_personaje'
+Traceback (most recent call last):
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Daniel\Desktop\Daniel\rolpz\bots\rolchoice\bot.py.py", line 1147, in character_info
+    await interaction.response.defer()
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\interactions.py", line 709, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'info_personaje' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-05-29 22:16:03,928 - ERROR - Ignoring exception in command 'tirar'
+Traceback (most recent call last):
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 858, in _do_call
+    return await self._callback(interaction, **params)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Daniel\Desktop\Daniel\rolpz\bots\rolchoice\bot.py.py", line 1069, in roll_dice
+    await interaction.response.defer()
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\interactions.py", line 709, in defer
+    await adapter.create_interaction_response(
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\webhook\async_.py", line 221, in request
+    raise NotFound(response, data)
+discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\tree.py", line 1310, in _call
+    await command._invoke_with_namespace(interaction, namespace)
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 883, in _invoke_with_namespace
+    return await self._do_call(interaction, transformed_values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\app_commands\commands.py", line 876, in _do_call
+    raise CommandInvokeError(self, e) from e
+discord.app_commands.errors.CommandInvokeError: Command 'tirar' raised an exception: NotFound: 404 Not Found (error code: 10062): Unknown interaction
+2025-05-29 22:16:39,500 - INFO - [DADOS] Khajes - Ataque magico: D20(20) + Mana(10) + Bonus(0) = 30
+2025-05-29 22:17:49,596 - INFO - [DADOS] Feanor - Ataque magico: D20(1) + Mana(18) + Bonus(0) = 19
+2025-05-29 22:19:03,197 - INFO - [DADOS] Feanor - Ataque magico: D20(8) + Mana(21) + Bonus(0) = 29
+2025-05-29 22:20:16,667 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-29 22:21:08,267 - INFO - ✅ Imagen guardada: Sable verde_d2779f68.png
+2025-05-29 22:22:42,430 - INFO - [DADOS] Feanor - Ataque magico: D20(5) + Mana(23) + Bonus(0) = 28
+2025-05-29 22:55:46,434 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-30 01:24:57,900 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-30 02:12:34,880 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-30 05:04:53,982 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-30 06:17:45,251 - INFO - Shard ID None has successfully RESUMED session f859e7c2c7fd04fe89804fd7e7498969.
+2025-05-30 06:36:39,177 - INFO - ✅ Imagen guardada: Chancho verde_b5ac4568.png
+2025-05-30 06:36:39,179 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-30 07:49:57,943 - INFO - 🛑 Bot detenido por el usuario
+2025-05-30 07:49:57,943 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-30 07:50:04,015 - INFO - ✅ Base de datos inicializada
+2025-05-30 07:50:04,016 - WARNING - ⚠️ Google Sheets no configurado
+2025-05-30 07:50:04,027 - INFO - ✅ Contenido por defecto creado
+2025-05-30 07:50:04,027 - INFO - 🚀 Iniciando Unity RPG Bot Corregido...
+2025-05-30 07:50:04,027 - INFO - logging in using static token
+2025-05-30 07:50:05,672 - INFO - Shard ID None has connected to Gateway (Session ID: edee2863169f886c9a2ade37a40a6776).
+2025-05-30 07:50:07,808 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-30 07:50:08,194 - INFO - 📡 15 comandos sincronizados
+2025-05-30 07:56:16,999 - INFO - ✅ Imagen guardada: Chancho Verde_22b475ef.png
+2025-05-30 07:56:17,000 - ERROR - ❌ Error creando NPC: table npcs has no column named fuerza
+2025-05-30 07:58:09,017 - INFO - 🛑 Bot detenido por el usuario
+2025-05-30 07:58:09,017 - INFO - 👋 Unity RPG Bot cerrado
+2025-05-30 08:11:22,242 - INFO - 🔄 Recreando tabla NPCs con estructura correcta
+2025-05-30 08:11:22,250 - INFO - ✅ Base de datos inicializada correctamente
+2025-05-30 08:11:22,250 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-05-30 08:11:22,262 - INFO - ✅ Contenido por defecto creado
+2025-05-30 08:11:22,262 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-05-30 08:11:22,263 - INFO - logging in using static token
+2025-05-30 08:11:23,899 - INFO - Shard ID None has connected to Gateway (Session ID: fdbadf0981f08d8d8c40f6e465b9e8ad).
+2025-05-30 08:11:26,043 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-30 08:11:28,306 - INFO - 📡 15 comandos sincronizados
+2025-05-30 08:12:54,926 - INFO - ✅ Imagen guardada: Chancho Verde_7e9740f7.png
+2025-05-30 10:31:52,040 - INFO - Shard ID None has successfully RESUMED session fdbadf0981f08d8d8c40f6e465b9e8ad.
+2025-05-30 11:26:06,124 - INFO - Shard ID None has successfully RESUMED session fdbadf0981f08d8d8c40f6e465b9e8ad.
+2025-05-30 11:50:51,859 - INFO - ✅ Imagen guardada: CUERVO_f1c1a740.jpg
+2025-05-30 11:50:52,247 - INFO - ✅ Excel creado para CUERVO
+2025-05-30 16:09:01,547 - INFO - ✅ Base de datos inicializada correctamente
+2025-05-30 16:09:01,548 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-05-30 16:09:01,559 - INFO - ✅ Contenido por defecto creado
+2025-05-30 16:09:01,559 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-05-30 16:09:01,559 - INFO - logging in using static token
+2025-05-30 16:09:03,170 - INFO - Shard ID None has connected to Gateway (Session ID: 39b0d87e129b73576cc00c530043c5af).
+2025-05-30 16:09:05,202 - INFO - ✅ Diler conectado como Diler#2517
+2025-05-30 16:09:05,490 - INFO - 📡 15 comandos sincronizados
+2025-05-30 17:46:01,752 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-30 19:26:14,768 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-30 21:10:09,342 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 01:01:16,877 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 01:13:33,198 - INFO - [DADOS] CUERVO - Ataque fisico: D20(18) + Fuerza(15) + Bonus(0) = 33
+2025-05-31 02:36:17,830 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 02:53:03,941 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 06:41:16,113 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 10:20:27,927 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 10:50:05,008 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 11:19:00,646 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 13:02:12,080 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 14:38:08,589 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 17:14:26,188 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 20:55:27,275 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-05-31 22:52:50,749 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 00:09:51,792 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 03:55:35,600 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 07:49:58,869 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 08:55:23,665 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 09:49:30,232 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 11:42:13,960 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 12:04:06,099 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 15:03:59,511 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 16:05:19,738 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 16:35:44,799 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 18:16:47,581 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 20:36:32,630 - INFO - [DADOS] feanor - Ataque magico: D20(19) + Mana(18) + Bonus(0) = 37
+2025-06-01 20:37:08,723 - INFO - [DADOS] Feanor - Defensa magica: D20(11) + Destreza(21) + Bonus(0) = 32
+2025-06-01 20:40:23,871 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(8) + Fuerza(19) + Bonus(0) = 27
+2025-06-01 20:43:25,053 - INFO - [DADOS] Raven Carmine - Ataque magico: D20(20) + Mana(20) + Bonus(0) = 40
+2025-06-01 21:43:38,873 - INFO - Shard ID None has successfully RESUMED session 39b0d87e129b73576cc00c530043c5af.
+2025-06-01 22:28:06,142 - INFO - [DADOS] Feanor - Ataque magico: D20(15) + Mana(23) + Bonus(0) = 38
+2025-06-01 22:28:28,933 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(19) + Velocidad(22) + Bonus(0) = 41
+2025-06-01 22:35:56,584 - INFO - [DADOS] Rosaria - Defensa fisica: D20(10) + Resistencia(6) + Bonus(0) = 16
+2025-06-01 22:36:33,513 - INFO - [DADOS] Rosaria - Defensa esquive: D20(12) + Velocidad(6) + Bonus(0) = 18
+2025-06-01 22:44:44,367 - INFO - ✅ Imagen guardada: Protesis 2.0 Hendricson_8d19a5a8.png
+2025-06-01 22:46:05,857 - INFO - [DADOS] Feanor - Defensa esquive: D20(5) + Velocidad(23) + Bonus(0) = 28
+2025-06-02 00:29:24,194 - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-06-02 00:29:24,357 - INFO - Shard ID None session has been invalidated.
+2025-06-02 00:29:29,670 - INFO - Shard ID None has connected to Gateway (Session ID: 25bfbb73376d0731152185c4f7c18539).
+2025-06-02 00:29:31,757 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-02 00:29:32,263 - INFO - 📡 15 comandos sincronizados
+2025-06-02 02:40:14,814 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 03:43:05,743 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 04:08:55,692 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 04:21:55,581 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 07:45:59,322 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 11:38:57,015 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 12:42:31,035 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 14:56:29,921 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 16:49:52,380 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 17:10:58,797 - INFO - [DADOS] Feanor - Ataque magico: D20(5) + Mana(24) + Bonus(0) = 29
+2025-06-02 17:20:15,549 - INFO - ✅ Imagen guardada: yuko_efc6bdfd.jpg
+2025-06-02 17:20:15,585 - INFO - ✅ Excel creado para yuko
+2025-06-02 20:09:44,861 - INFO - [DADOS] Feanor - Defensa esquive: D20(7) + Velocidad(23) + Bonus(3) = 33
+2025-06-02 20:14:49,080 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-02 22:08:30,524 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 01:18:04,132 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 02:31:36,392 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 03:50:37,035 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 05:08:07,260 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 05:19:48,741 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 07:24:16,203 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 07:33:01,441 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 08:54:44,256 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 10:09:23,423 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 13:03:31,006 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 13:48:41,503 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 16:20:14,505 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 16:38:00,596 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 16:56:53,196 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 17:18:34,095 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 18:01:24,220 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 18:03:52,008 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 18:16:49,764 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 18:55:18,359 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 22:19:44,022 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 22:34:38,567 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-03 22:42:14,439 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-04 00:16:50,021 - INFO - Shard ID None has successfully RESUMED session 25bfbb73376d0731152185c4f7c18539.
+2025-06-04 08:25:31,412 - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-06-04 08:25:31,608 - INFO - Shard ID None session has been invalidated.
+2025-06-04 08:25:36,970 - INFO - Shard ID None has connected to Gateway (Session ID: 515d1bb387968ca4d72a62f59fdfce0b).
+2025-06-04 08:25:39,046 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-04 08:25:39,628 - INFO - 📡 15 comandos sincronizados
+2025-06-04 08:35:31,147 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 10:12:21,011 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 10:37:01,536 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 11:03:44,223 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 11:24:01,117 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 13:30:40,748 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 13:47:46,304 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 14:40:34,615 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 15:13:42,723 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 17:06:03,818 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 17:26:31,218 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 18:33:55,919 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 19:43:12,930 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 20:19:22,421 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-04 22:51:49,475 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 00:11:31,750 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 02:46:06,607 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 04:32:53,867 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 05:03:25,775 - ERROR - Attempting a reconnect in 1.95s
+Traceback (most recent call last):
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\client.py", line 667, in connect
+    await self.ws.poll_event()
+  File "C:\Users\Daniel\anaconda3\Lib\site-packages\discord\gateway.py", line 648, in poll_event
+    raise ConnectionClosed(self.socket, shard_id=self.shard_id, code=code) from None
+discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
+2025-06-05 05:03:27,974 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 05:26:36,213 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 07:05:42,027 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 10:13:29,367 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 10:22:29,457 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 11:07:28,832 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 13:13:04,886 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-05 14:52:52,763 - INFO - Shard ID None has successfully RESUMED session 515d1bb387968ca4d72a62f59fdfce0b.
+2025-06-06 19:49:13,000 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-06 19:49:13,002 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-06 19:49:13,015 - INFO - ✅ Contenido por defecto creado
+2025-06-06 19:49:13,015 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-06 19:49:13,015 - INFO - logging in using static token
+2025-06-06 19:49:14,384 - INFO - Shard ID None has connected to Gateway (Session ID: 6520d073b75903b8c301912270da9541).
+2025-06-06 19:49:16,536 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-06 19:49:16,798 - INFO - 📡 15 comandos sincronizados
+2025-06-06 19:52:16,993 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-06 22:03:43,969 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-06 23:20:23,178 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 01:06:26,271 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 02:55:57,958 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 03:38:50,268 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 05:39:21,316 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 08:10:05,034 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 10:07:30,590 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 11:44:07,014 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 12:01:18,695 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 13:09:50,498 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 14:18:10,675 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 15:14:00,248 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 17:03:46,157 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 19:33:07,238 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-07 20:46:53,867 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 00:30:45,044 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 00:50:21,298 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 01:08:17,614 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 01:53:42,003 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 02:57:32,777 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 06:28:53,223 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 07:43:48,910 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 10:50:26,978 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 10:58:39,230 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 10:58:48,701 - INFO - ✅ Imagen guardada: Zamir_57b7f53a.png
+2025-06-08 10:58:49,231 - INFO - ✅ Excel creado para Zamir
+2025-06-08 11:14:54,502 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 11:33:58,053 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 11:37:25,028 - INFO - [DADOS] Feanor - Ataque magico: D20(8) + Mana(24) + Bonus(2) = 34
+2025-06-08 11:38:09,743 - INFO - [DADOS] feanor - Ataque magico: D20(13) + Mana(18) + Bonus(-2) = 29
+2025-06-08 11:39:30,330 - INFO - [DADOS] Zamir - Ataque magico: D20(20) + Mana(9) + Bonus(5) = 34
+2025-06-08 11:41:04,411 - INFO - [DADOS] Feanor - Ataque magico: D20(15) + Mana(24) + Bonus(-1) = 38
+2025-06-08 11:41:45,021 - INFO - [DADOS] Feanor - Ataque magico: D20(11) + Mana(24) + Bonus(-2) = 33
+2025-06-08 12:48:36,214 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 15:15:36,001 - INFO - [DADOS] Finn - Ataque distancia: D20(17) + Destreza(9) + Bonus(2) = 28
+2025-06-08 16:32:51,083 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 17:19:16,152 - INFO - [DADOS] Feanor - Ataque fisico: D20(8) + Fuerza(19) + Bonus(3) = 30
+2025-06-08 17:24:32,482 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 17:45:46,009 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 19:04:14,598 - INFO - [DADOS] Feanor - Defensa magica: D20(11) + Destreza(22) + Bonus(0) = 33
+2025-06-08 19:20:21,776 - INFO - [DADOS] Feanor - Defensa esquive: D20(16) + Velocidad(23) + Bonus(1) = 40
+2025-06-08 19:23:41,822 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(20) + Velocidad(23) + Bonus(5) = 48
+2025-06-08 19:25:23,691 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 19:25:28,406 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(9) + Fuerza(19) + Bonus(0) = 28
+2025-06-08 19:25:48,518 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(11) + Fuerza(19) + Bonus(0) = 30
+2025-06-08 19:25:57,248 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(19) + Fuerza(19) + Bonus(0) = 38
+2025-06-08 19:26:05,919 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(3) + Fuerza(19) + Bonus(0) = 22
+2025-06-08 19:26:16,878 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(9) + Fuerza(19) + Bonus(0) = 28
+2025-06-08 19:26:25,266 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(14) + Fuerza(19) + Bonus(0) = 33
+2025-06-08 19:26:39,838 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(16) + Fuerza(19) + Bonus(0) = 35
+2025-06-08 19:26:50,636 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(13) + Fuerza(19) + Bonus(0) = 32
+2025-06-08 19:26:58,093 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(9) + Fuerza(19) + Bonus(0) = 28
+2025-06-08 19:27:05,340 - INFO - [DADOS] Raven Carmine - Ataque fisico: D20(8) + Fuerza(19) + Bonus(0) = 27
+2025-06-08 19:28:19,588 - INFO - [DADOS] Feanor - Ataque fisico: D20(1) + Fuerza(19) + Bonus(0) = 20
+2025-06-08 19:28:34,322 - INFO - [DADOS] khajes - Defensa esquive: D20(1) + Velocidad(5) + Bonus(0) = 6
+2025-06-08 19:28:59,145 - INFO - [DADOS] Khajes - Defensa magica: D20(4) + Destreza(9) + Bonus(0) = 13
+2025-06-08 19:29:12,094 - INFO - [DADOS] khajes - Defensa magica: D20(17) + Destreza(9) + Bonus(0) = 26
+2025-06-08 19:35:44,713 - INFO - [DADOS] Raven Carmine - Ataque magico: D20(4) + Mana(20) + Bonus(6) = 30
+2025-06-08 19:39:06,048 - INFO - [DADOS] Feanor - Ataque fisico: D20(10) + Fuerza(19) + Bonus(1) = 30
+2025-06-08 20:23:17,762 - INFO - [DADOS] Raven Carmine - Defensa magica: D20(17) + Destreza(18) + Bonus(1) = 36
+2025-06-08 20:24:34,596 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(15) + Velocidad(23) + Bonus(1) = 39
+2025-06-08 21:07:10,853 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-08 22:24:18,741 - INFO - [DADOS] Feanor - Defensa esquive: D20(12) + Velocidad(23) + Bonus(1) = 36
+2025-06-08 22:35:15,479 - INFO - [DADOS] Feanor - Ataque fisico: D20(5) + Fuerza(19) + Bonus(3) = 27
+2025-06-08 22:59:35,026 - INFO - [DADOS] Feanor - Defensa esquive: D20(17) + Velocidad(23) + Bonus(0) = 40
+2025-06-08 23:02:01,055 - INFO - [DADOS] Feanor - Defensa esquive: D20(4) + Velocidad(23) + Bonus(0) = 27
+2025-06-08 23:05:15,336 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(5) + Velocidad(23) + Bonus(1) = 29
+2025-06-08 23:07:22,437 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(9) + Velocidad(23) + Bonus(1) = 33
+2025-06-08 23:31:54,792 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 00:27:00,597 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 00:47:43,645 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 01:16:36,841 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 04:29:24,065 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 06:58:19,552 - INFO - [DADOS] Finn - Ataque fisico: D20(10) + Fuerza(13) + Bonus(2) = 25
+2025-06-09 08:05:22,591 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 10:13:35,957 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 12:38:17,391 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 16:06:17,580 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 19:17:56,268 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 20:02:48,206 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 20:54:20,845 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 21:39:17,472 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 22:23:34,294 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-09 22:48:51,211 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 00:56:14,528 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 03:18:01,659 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 06:05:09,606 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 08:46:51,790 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 11:01:40,520 - INFO - [DADOS] Yurany - Ataque fisico: D20(12) + Fuerza(7) + Bonus(3) = 22
+2025-06-10 11:57:53,540 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 13:54:46,310 - INFO - [DADOS] Yurany - Ataque distancia: D20(16) + Destreza(6) + Bonus(0) = 22
+2025-06-10 14:39:34,287 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 15:18:49,999 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 16:51:46,556 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 16:54:48,875 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 17:58:49,532 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 18:09:54,985 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 18:27:01,435 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 18:29:32,369 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 19:20:26,909 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 19:34:12,768 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 19:51:49,409 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 20:15:53,501 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 20:27:02,167 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-10 21:24:11,754 - INFO - Shard ID None has successfully RESUMED session 6520d073b75903b8c301912270da9541.
+2025-06-11 15:44:25,005 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-11 15:44:25,006 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-11 15:44:25,017 - INFO - ✅ Contenido por defecto creado
+2025-06-11 15:44:25,018 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-11 15:44:25,018 - INFO - logging in using static token
+2025-06-11 15:44:26,529 - INFO - Shard ID None has connected to Gateway (Session ID: b712cb7d46e09e63e2182fba46c1da37).
+2025-06-11 15:44:28,543 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-11 15:44:28,850 - INFO - 📡 15 comandos sincronizados
+2025-06-11 15:45:01,307 - INFO - [DADOS] Yurany - Ataque fisico: D20(5) + Fuerza(7) + Bonus(3) = 15
+2025-06-11 15:48:32,695 - INFO - [DADOS] Finn - Ataque fisico: D20(19) + Fuerza(13) + Bonus(0) = 32
+2025-06-11 16:23:04,972 - INFO - [DADOS] Finn - Ataque fisico: D20(3) + Fuerza(13) + Bonus(0) = 16
+2025-06-11 16:24:07,987 - INFO - ✅ Imagen guardada: Andariel_849cc5f6.png
+2025-06-11 16:24:08,032 - INFO - ✅ Excel creado para Andariel
+2025-06-11 16:24:31,401 - ERROR - ❌ Error eliminando personaje: [WinError 183] No se puede crear un archivo que ya existe: 'unity_data/personajes/activos/Andariel.xlsx' -> 'unity_data/personajes/archivados/Andariel.xlsx'
+2025-06-11 16:25:02,228 - INFO - ✅ Excel creado para Andariel
+2025-06-11 16:28:37,507 - INFO - ✅ Imagen guardada: Anillo encantado_a0c85883.png
+2025-06-11 16:29:24,312 - INFO - [DADOS] Andariel - Ataque magico: D20(3) + Mana(11) + Bonus(0) = 14
+2025-06-11 16:31:11,673 - INFO - [DADOS] Andariel - Ataque magico: D20(7) + Mana(11) + Bonus(2) = 20
+2025-06-11 16:38:48,723 - INFO - ✅ Imagen guardada: Bastón de Nexum Puro_11486bdb.png
+2025-06-11 16:43:21,513 - INFO - ✅ Imagen guardada: Tomelico_4e7a7710.png
+2025-06-11 16:43:21,545 - INFO - ✅ Excel creado para Tomelico
+2025-06-11 16:45:56,618 - INFO - [DADOS] Tomelico - Ataque magico: D20(16) + Mana(16) + Bonus(0) = 32
+2025-06-11 17:01:22,550 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 17:17:13,102 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 17:43:13,606 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 18:19:53,311 - INFO - [DADOS] Yurany - Ataque fisico: D20(3) + Fuerza(7) + Bonus(0) = 10
+2025-06-11 18:40:47,489 - INFO - [DADOS] Yurany - Ataque fisico: D20(5) + Fuerza(7) + Bonus(3) = 15
+2025-06-11 18:44:34,198 - INFO - [DADOS] Yurany - Ataque fisico: D20(17) + Fuerza(7) + Bonus(3) = 27
+2025-06-11 18:45:30,215 - INFO - [DADOS] Finn - Defensa fisica: D20(1) + Resistencia(15) + Bonus(3) = 19
+2025-06-11 19:26:29,597 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 20:27:28,840 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 21:15:17,275 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 21:52:11,448 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 22:40:00,116 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-11 23:41:23,308 - INFO - [DADOS] Feanor - Ataque magico: D20(16) + Mana(21) + Bonus(7) = 44
+2025-06-11 23:41:59,247 - INFO - [DADOS] Raven Carmine - Defensa esquive: D20(17) + Velocidad(23) + Bonus(0) = 40
+2025-06-12 00:23:24,717 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 02:24:37,672 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 05:13:00,237 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 05:31:44,573 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 05:56:37,193 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 06:22:15,705 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 06:29:07,576 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 06:40:40,734 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 07:53:20,668 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 11:35:38,171 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 12:05:36,084 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 12:24:27,959 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 12:43:59,264 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 13:06:41,036 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 13:53:17,706 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 14:30:25,705 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 15:28:00,897 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 17:12:15,100 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 17:53:34,499 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 18:37:16,262 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 20:32:51,630 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 21:13:22,468 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-12 22:55:03,487 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 00:13:52,722 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 02:23:08,604 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 04:44:21,373 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 08:08:16,427 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 08:50:49,764 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 09:07:38,256 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 09:10:17,779 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 11:01:58,530 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 12:05:59,950 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 14:02:28,896 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 14:10:29,583 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 14:56:18,000 - INFO - Shard ID None has successfully RESUMED session b712cb7d46e09e63e2182fba46c1da37.
+2025-06-13 19:30:13,562 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-13 19:30:13,574 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-13 19:30:13,600 - INFO - ✅ Contenido por defecto creado
+2025-06-13 19:30:13,600 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-13 19:30:13,600 - INFO - logging in using static token
+2025-06-13 19:30:15,003 - INFO - Shard ID None has connected to Gateway (Session ID: 2b7f2f617e8095a79a5913fe2859fdec).
+2025-06-13 19:30:17,056 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-13 19:30:17,318 - INFO - 📡 15 comandos sincronizados
+2025-06-13 19:57:29,176 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-13 21:11:23,575 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-13 22:34:16,628 - INFO - ✅ Imagen guardada: Lobo Lunar_5768ff67.webp
+2025-06-13 23:16:07,910 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 02:55:32,990 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 03:36:30,916 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 07:05:58,721 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 10:17:48,362 - INFO - ✅ Imagen guardada: Lars Kresmslinger_c771f066.png
+2025-06-14 10:17:49,103 - INFO - ✅ Excel creado para Lars Kresmslinger
+2025-06-14 10:19:10,567 - INFO - [DADOS] Lars Kresmslinger - Ataque magico: D20(19) + Mana(12) + Bonus(0) = 31
+2025-06-14 10:56:17,990 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 14:17:41,320 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 15:19:08,052 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 16:19:57,774 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 17:24:17,351 - INFO - ✅ Imagen guardada: Asesinos Eversor_c258c129.jpg
+2025-06-14 17:58:58,974 - INFO - [DADOS] Fëanor - Ataque fisico: D20(16) + Fuerza(16) + Bonus(0) = 32
+2025-06-14 20:01:08,484 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 22:03:33,688 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 22:37:27,140 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-14 23:11:09,042 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 01:19:13,216 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 03:35:54,693 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 07:07:36,697 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 07:53:17,872 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 08:16:15,254 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 10:36:49,053 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 12:46:18,074 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 14:45:08,695 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 18:16:01,079 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 19:05:27,833 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 21:10:44,513 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 22:28:24,510 - INFO - Shard ID None has successfully RESUMED session 2b7f2f617e8095a79a5913fe2859fdec.
+2025-06-15 23:11:54,182 - INFO - 🛑 Bot detenido por el usuario
+2025-06-15 23:11:54,187 - INFO - 👋 Unity RPG Bot cerrado
+2025-06-15 23:12:07,328 - INFO - 🔄 Tabla NPCs actualizada con campos de sincronización
+2025-06-15 23:12:07,329 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-15 23:12:07,329 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-15 23:12:07,341 - INFO - ✅ Contenido por defecto creado
+2025-06-15 23:12:07,341 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-15 23:12:07,341 - INFO - logging in using static token
+2025-06-15 23:12:08,730 - INFO - Shard ID None has connected to Gateway (Session ID: ae3698c4acde5af4dc7a339b9292edf1).
+2025-06-15 23:12:10,774 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-15 23:12:11,038 - INFO - 📡 17 comandos sincronizados
+2025-06-16 02:58:42,688 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 04:33:31,463 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 05:41:20,981 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 07:14:42,698 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 10:07:17,075 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 11:57:26,614 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 12:10:30,728 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 15:31:03,181 - INFO - ✅ Imagen guardada: Yurany_75ae7072.png
+2025-06-16 15:38:22,247 - ERROR - ❌ Error en tirada: This interaction has already been responded to before
+2025-06-16 15:48:04,366 - INFO - Shard ID None has successfully RESUMED session ae3698c4acde5af4dc7a339b9292edf1.
+2025-06-16 16:00:04,790 - INFO - ✅ Imagen guardada: Finn_85f72423.png
+2025-06-16 16:00:41,224 - INFO - 🛑 Bot detenido por el usuario
+2025-06-16 16:00:41,224 - INFO - 👋 Unity RPG Bot cerrado
+2025-06-16 16:00:45,193 - INFO - 🔄 Recreando tabla NPCs con nueva estructura
+2025-06-16 16:00:45,201 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 16:00:45,201 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 16:00:45,213 - INFO - ✅ Contenido por defecto creado
+2025-06-16 16:00:45,214 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-16 16:00:45,214 - INFO - logging in using static token
+2025-06-16 16:00:46,825 - INFO - Shard ID None has connected to Gateway (Session ID: f4a2fd095ab0fb0b9a56ca9513dd163e).
+2025-06-16 16:00:48,855 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-16 16:00:49,324 - INFO - 📡 12 comandos sincronizados
+2025-06-16 16:09:39,466 - INFO - 🛑 Bot detenido por el usuario
+2025-06-16 16:09:39,467 - INFO - 👋 Unity RPG Bot cerrado
+2025-06-16 16:09:42,121 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 16:09:42,121 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 16:09:42,158 - INFO - ✅ Contenido por defecto creado
+2025-06-16 16:09:42,159 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-16 16:09:42,159 - INFO - logging in using static token
+2025-06-16 16:09:43,540 - INFO - Shard ID None has connected to Gateway (Session ID: c49c314450d44bf3a359f9b353afeb91).
+2025-06-16 16:09:45,634 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-16 16:09:45,939 - INFO - 📡 12 comandos sincronizados
+2025-06-16 16:15:09,050 - INFO - [DADOS] Yurany - ataque_fisico: 3d20([13, 17, 13]) + Fuerza(7) + Bonus(3) = 53
+2025-06-16 16:17:19,147 - INFO - ✅ Imagen guardada: Goblin Gordo_cc9170cd.png
+2025-06-16 16:23:11,057 - INFO - ✅ Imagen guardada: Goblins_5154a941.png
+2025-06-16 16:23:46,177 - INFO - [NPC ATAQUE] 5 Goblinss sincronizados - fisico: 25 daño
+2025-06-16 16:24:15,431 - INFO - [NPC ATAQUE] Goblin Gordo - fisico: 15 daño
+2025-06-16 16:25:58,485 - INFO - [DADOS] Lars - ataque_magico: 1d20([10]) + Mana(10) + Bonus(0) = 20
+2025-06-16 16:27:19,481 - INFO - [DADOS] Lars - ataque_magico: 1d20([6]) + Mana(10) + Bonus(0) = 16
+2025-06-16 16:37:21,444 - INFO - 🛑 Bot detenido por el usuario
+2025-06-16 16:37:21,458 - INFO - 👋 Unity RPG Bot cerrado
