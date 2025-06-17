@@ -698,3 +698,24 @@ discord.errors.ConnectionClosed: Shard ID None WebSocket closed with 1000
 2025-06-16 16:27:19,481 - INFO - [DADOS] Lars - ataque_magico: 1d20([6]) + Mana(10) + Bonus(0) = 16
 2025-06-16 16:37:21,444 - INFO - 🛑 Bot detenido por el usuario
 2025-06-16 16:37:21,458 - INFO - 👋 Unity RPG Bot cerrado
+2025-06-16 16:39:41,462 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 16:39:41,464 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 16:46:14,526 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 16:46:14,528 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 17:00:42,965 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 17:00:42,966 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 17:13:06,256 - INFO - ✅ Base de datos inicializada correctamente
+2025-06-16 17:13:06,257 - INFO - ℹ️ Google Sheets no configurado - Usando solo almacenamiento local
+2025-06-16 17:13:06,268 - INFO - ✅ Contenido por defecto creado
+2025-06-16 17:13:06,269 - INFO - 🚀 Iniciando Unity RPG Bot...
+2025-06-16 17:13:06,269 - INFO - logging in using static token
+2025-06-16 17:13:07,852 - INFO - Shard ID None has connected to Gateway (Session ID: 1f6e87d973e4048f8f8c97cda6e31164).
+2025-06-16 17:13:09,894 - INFO - ✅ Diler conectado como Diler#2517
+2025-06-16 17:13:10,220 - INFO - 📡 12 comandos sincronizados
+2025-06-16 18:11:40,233 - INFO - ✅ Imagen guardada: Asesinos Eversor_1435d953.jpg
+2025-06-16 18:21:30,748 - INFO - [NPC ATAQUE] Asesinos Eversor - fisico: 25 daño
+2025-06-16 18:28:10,785 - INFO - Shard ID None has successfully RESUMED session 1f6e87d973e4048f8f8c97cda6e31164.
+2025-06-16 18:32:15,056 - INFO - [DADOS] Finn - ataque_fisico: 1d20([17]) + Fuerza(13) + Bonus(2) = 32
+2025-06-16 18:32:54,822 - INFO - [DADOS] Finn - ataque_fisico: 5d20([2, 14, 20, 6, 16]) + Fuerza(13) + Bonus(4) = 75
+2025-06-16 19:09:44,065 - INFO - 🛑 Bot detenido por el usuario
+2025-06-16 19:09:44,065 - INFO - 👋 Unity RPG Bot cerrado

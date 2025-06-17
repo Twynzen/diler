@@ -423,94 +423,141 @@ class DiceSystem:
         }
     
     @staticmethod
-    def npc_attack(npc_name, attack_type):
-        """Ataque de NPC con stats fijas (sin dados)"""
+    def npc_action(npc_name, action_type):
+        """Acción de NPC (ataque o defensa) con stats fijas"""
         try:
             with db.get_connection() as conn:
                 cursor = conn.cursor()
-                cursor.execute("""SELECT ataq_fisic, ataq_dist, ataq_magic, sincronizado, cantidad, imagen_url 
-                                FROM npcs WHERE nombre = ?""", (npc_name,))
+                cursor.execute("""SELECT ataq_fisic, ataq_dist, ataq_magic, res_fisica, res_magica, velocidad,
+                                sincronizado, cantidad, imagen_url FROM npcs WHERE nombre = ?""", (npc_name,))
                 result = cursor.fetchone()
                 
                 if not result:
                     return None
                 
-                ataq_fisic, ataq_dist, ataq_magic, sincronizado, cantidad, imagen_url = result
+                ataq_fisic, ataq_dist, ataq_magic, res_fisica, res_magica, velocidad, sincronizado, cantidad, imagen_url = result
                 
-                attack_mapping = {'fisico': ataq_fisic, 'distancia': ataq_dist, 'magico': ataq_magic}
+                # Mapeo de acciones para NPCs
+                action_mapping = {
+                    'fisico': ataq_fisic,
+                    'distancia': ataq_dist, 
+                    'magico': ataq_magic,
+                    'defensa_fisica': res_fisica,
+                    'defensa_magica': res_magica,
+                    'esquivar': velocidad
+                }
                 
-                if attack_type not in attack_mapping:
+                if action_type not in action_mapping:
                     return None
                 
-                base_damage = attack_mapping[attack_type]
+                base_value = action_mapping[action_type]
                 
                 # Si está sincronizado, multiplica por cantidad
                 if sincronizado:
-                    total_damage = base_damage * cantidad
-                    attack_description = f"{cantidad} {npc_name}s sincronizados"
+                    total_value = base_value * cantidad
+                    action_description = f"{cantidad} {npc_name}s sincronizados"
                 else:
-                    total_damage = base_damage
-                    attack_description = f"{npc_name}"
+                    total_value = base_value
+                    action_description = f"{npc_name}"
                 
-                logger.info(f"[NPC ATAQUE] {attack_description} - {attack_type}: {total_damage} daño")
+                # Determinar si es ataque o defensa
+                is_attack = action_type in ['fisico', 'distancia', 'magico']
+                action_category = "ataque" if is_attack else "defensa"
+                
+                logger.info(f"[NPC {action_category.upper()}] {action_description} - {action_type}: {total_value}")
                 
                 return {
                     'npc_name': npc_name,
-                    'attack_type': attack_type,
-                    'base_damage': base_damage,
-                    'total_damage': total_damage,
+                    'action_type': action_type,
+                    'action_category': action_category,
+                    'base_value': base_value,
+                    'total_value': total_value,
                     'sincronizado': sincronizado,
                     'cantidad': cantidad,
-                    'attack_description': attack_description,
+                    'action_description': action_description,
                     'imagen_url': imagen_url
                 }
         except Exception as e:
-            logger.error(f"❌ Error en ataque NPC: {e}")
+            logger.error(f"❌ Error en acción NPC: {e}")
             return None
 
 dice_system = DiceSystem()
 
 # ============= INTERACTIVE MENUS =============
 
-class NPCAttackSelect(discord.ui.Select):
+class NPCActionSelect(discord.ui.Select):
     def __init__(self, npc_name):
         self.npc_name = npc_name
         
         options = [
+            # Ataques
             discord.SelectOption(label="Ataque Físico", description="Daño fijo basado en ATAQ_FISIC", emoji="⚔️", value="fisico"),
             discord.SelectOption(label="Ataque Mágico", description="Daño fijo basado en ATAQ_MAGIC", emoji="🔮", value="magico"),
-            discord.SelectOption(label="Ataque a Distancia", description="Daño fijo basado en ATAQ_DIST", emoji="🏹", value="distancia")
+            discord.SelectOption(label="Ataque a Distancia", description="Daño fijo basado en ATAQ_DIST", emoji="🏹", value="distancia"),
+            # Defensas
+            discord.SelectOption(label="Defensa Física", description="Defensa basada en RES_FISICA", emoji="🛡️", value="defensa_fisica"),
+            discord.SelectOption(label="Defensa Mágica", description="Defensa basada en RES_MAGICA", emoji="✨", value="defensa_magica"),
+            discord.SelectOption(label="Esquivar", description="Esquive basado en VELOCIDAD", emoji="🏃", value="esquivar")
         ]
         
-        super().__init__(placeholder="🎯 Selecciona el tipo de ataque del NPC...", options=options)
+        super().__init__(placeholder="🎯 Selecciona la acción del NPC...", options=options)
     
     async def callback(self, interaction: discord.Interaction):
-        result = dice_system.npc_attack(self.npc_name, self.values[0])
+        result = dice_system.npc_action(self.npc_name, self.values[0])
         
         if not result:
             await interaction.response.send_message(f"❌ NPC **{self.npc_name}** no encontrado", ephemeral=True)
             return
         
-        color = 0xff4444
-        embed = discord.Embed(title=f"👹 {result['attack_description']} - Ataque {result['attack_type'].title()}", color=color)
+        # Colores según acción
+        if result['action_category'] == 'ataque':
+            color = 0xff4444
+            if result['total_value'] >= 50:
+                embed_desc = "💀 **¡ATAQUE DEVASTADOR!**"
+                color = 0x8b0000
+            elif result['total_value'] >= 30:
+                embed_desc = "⚔️ **¡ATAQUE PODEROSO!**"
+            elif result['total_value'] >= 15:
+                embed_desc = "✅ **Ataque Efectivo**"
+            else:
+                embed_desc = "👊 **Ataque Básico**"
+        else:  # defensa
+            color = 0x4444ff
+            if result['total_value'] >= 50:
+                embed_desc = "🛡️ **¡DEFENSA IMPENETRABLE!**"
+                color = 0x000080
+            elif result['total_value'] >= 30:
+                embed_desc = "🛡️ **¡DEFENSA SÓLIDA!**"
+            elif result['total_value'] >= 15:
+                embed_desc = "✅ **Defensa Efectiva**"
+            else:
+                embed_desc = "🛡️ **Defensa Básica**"
         
-        if result['total_damage'] >= 50:
-            embed.description = "💀 **¡ATAQUE DEVASTADOR!**"
-            embed.color = 0x8b0000
-        elif result['total_damage'] >= 30:
-            embed.description = "⚔️ **¡ATAQUE PODEROSO!**"
-        elif result['total_damage'] >= 15:
-            embed.description = "✅ **Ataque Efectivo**"
-        else:
-            embed.description = "👊 **Ataque Básico**"
+        action_emoji = {
+            'fisico': '⚔️', 'magico': '🔮', 'distancia': '🏹',
+            'defensa_fisica': '🛡️', 'defensa_magica': '✨', 'esquivar': '🏃'
+        }
+        
+        action_names = {
+            'fisico': 'Ataque Físico', 'magico': 'Ataque Mágico', 'distancia': 'Ataque a Distancia',
+            'defensa_fisica': 'Defensa Física', 'defensa_magica': 'Defensa Mágica', 'esquivar': 'Esquivar'
+        }
+        
+        emoji = action_emoji.get(result['action_type'], '🎯')
+        action_name = action_names.get(result['action_type'], result['action_type'].title())
+        
+        embed = discord.Embed(title=f"👹 {result['action_description']} - {action_name}", color=color)
+        embed.description = embed_desc
         
         if result['sincronizado']:
             embed.add_field(name="🤝 NPCs Sincronizados", value=f"{result['cantidad']} unidades", inline=True)
-            embed.add_field(name="💪 Daño Base c/u", value=f"`{result['base_damage']}`", inline=True)
-            embed.add_field(name="🏆 **DAÑO TOTAL**", value=f"**`{result['total_damage']}`**", inline=True)
+            embed.add_field(name="💪 Valor Base c/u", value=f"`{result['base_value']}`", inline=True)
+            value_name = "🏆 **DAÑO TOTAL**" if result['action_category'] == 'ataque' else "🛡️ **DEFENSA TOTAL**"
+            embed.add_field(name=value_name, value=f"**`{result['total_value']}`**", inline=True)
         else:
             embed.add_field(name="👤 NPC Individual", value=result['npc_name'], inline=True)
-            embed.add_field(name="🏆 **DAÑO**", value=f"**`{result['total_damage']}`**", inline=True)
+            value_name = "🏆 **DAÑO**" if result['action_category'] == 'ataque' else "🛡️ **DEFENSA**"
+            embed.add_field(name=value_name, value=f"**`{result['total_value']}`**", inline=True)
         
         if result['imagen_url']:
             embed.set_thumbnail(url=result['imagen_url'])
@@ -578,10 +625,10 @@ class EquipItemSelect(discord.ui.Select):
             await interaction.response.send_message("❌ Error interno", ephemeral=True)
 
 # Views
-class NPCAttackView(discord.ui.View):
+class NPCActionView(discord.ui.View):
     def __init__(self, npc_name):
         super().__init__(timeout=60)
-        self.add_item(NPCAttackSelect(npc_name))
+        self.add_item(NPCActionSelect(npc_name))
 
 class EquipItemView(discord.ui.View):
     def __init__(self, character_name, items):
@@ -688,10 +735,14 @@ async def create_npc(interaction: discord.Interaction, nombre: str, tipo: str = 
         embed.add_field(name="📊 Estadísticas", value=stats_text, inline=True)
         
         damage_text = f"⚔️ Físico: {ataq_fisic}\n🏹 Distancia: {ataq_dist}\n🔮 Mágico: {ataq_magic}"
-        if sincronizado:
-            damage_text += f"\n\n🤝 **Daño Sincronizado:**\n⚔️ Físico: {ataq_fisic * cantidad}\n🏹 Distancia: {ataq_dist * cantidad}\n🔮 Mágico: {ataq_magic * cantidad}"
+        defense_text = f"🛡️ Defensa Física: {res_fisica}\n✨ Defensa Mágica: {res_magica}\n🏃 Esquivar: {velocidad}"
         
-        embed.add_field(name="💥 Daño de Ataques", value=damage_text, inline=True)
+        if sincronizado:
+            damage_text += f"\n\n🤝 **Sincronizado:**\n⚔️ Físico: {ataq_fisic * cantidad}\n🏹 Distancia: {ataq_dist * cantidad}\n🔮 Mágico: {ataq_magic * cantidad}"
+            defense_text += f"\n\n🤝 **Sincronizado:**\n🛡️ Def. Física: {res_fisica * cantidad}\n✨ Def. Mágica: {res_magica * cantidad}\n🏃 Esquivar: {velocidad * cantidad}"
+        
+        embed.add_field(name="💥 Ataques", value=damage_text, inline=True)
+        embed.add_field(name="🛡️ Defensas", value=defense_text, inline=True)
         
         if imagen_url:
             embed.set_thumbnail(url=imagen_url)
@@ -762,6 +813,94 @@ async def create_item(interaction: discord.Interaction, nombre: str, tipo: str, 
     except Exception as e:
         logger.error(f"❌ Error creando item: {e}")
         await interaction.followup.send(f"❌ Error interno al crear item **{nombre}**")
+
+# ============= COMANDOS DE BORRADO (NUEVOS) =============
+
+@tree.command(name="borrar_personaje", description="Borra tu personaje (solo el creador puede borrarlo)")
+async def delete_character(interaction: discord.Interaction, personaje: str):
+    await interaction.response.defer()
+    
+    try:
+        with db.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Verificar que el personaje existe y pertenece al usuario
+            cursor.execute("SELECT id, usuario_id, excel_path FROM personajes WHERE nombre = ?", (personaje,))
+            result = cursor.fetchone()
+            
+            if not result:
+                await interaction.followup.send(f"❌ Personaje **{personaje}** no encontrado")
+                return
+            
+            char_id, owner_id, excel_path = result
+            
+            if owner_id != str(interaction.user.id):
+                await interaction.followup.send("❌ Solo puedes borrar tus propios personajes")
+                return
+            
+            # Borrar inventario del personaje
+            cursor.execute("DELETE FROM inventarios WHERE personaje_id = ?", (char_id,))
+            
+            # Borrar personaje de la base de datos
+            cursor.execute("DELETE FROM personajes WHERE id = ?", (char_id,))
+            conn.commit()
+            
+            # Mover archivo Excel a carpeta de archivados
+            try:
+                import shutil
+                if os.path.exists(excel_path):
+                    archived_path = excel_path.replace('/activos/', '/archivados/')
+                    shutil.move(excel_path, archived_path)
+                    logger.info(f"📁 Excel movido a archivados: {archived_path}")
+            except Exception as e:
+                logger.warning(f"⚠️ No se pudo mover Excel: {e}")
+        
+        embed = discord.Embed(
+            title="🗑️ Personaje Borrado", 
+            description=f"**{personaje}** ha sido eliminado del universo Unity", 
+            color=0xff6600
+        )
+        embed.add_field(name="🧹 Limpieza", value="• Inventario eliminado\n• Archivo movido a archivados", inline=False)
+        embed.set_footer(text="Esta acción no se puede deshacer")
+        
+        await interaction.followup.send(embed=embed)
+        
+    except Exception as e:
+        logger.error(f"❌ Error borrando personaje: {e}")
+        await interaction.followup.send("❌ Error interno al borrar personaje")
+
+@tree.command(name="borrar_npc", description="Borra un NPC del universo")
+async def delete_npc(interaction: discord.Interaction, npc: str):
+    await interaction.response.defer()
+    
+    try:
+        with db.get_connection() as conn:
+            cursor = conn.cursor()
+            
+            # Verificar que el NPC existe
+            cursor.execute("SELECT id FROM npcs WHERE nombre = ?", (npc,))
+            result = cursor.fetchone()
+            
+            if not result:
+                await interaction.followup.send(f"❌ NPC **{npc}** no encontrado")
+                return
+            
+            # Borrar NPC
+            cursor.execute("DELETE FROM npcs WHERE nombre = ?", (npc,))
+            conn.commit()
+        
+        embed = discord.Embed(
+            title="🗑️ NPC Borrado", 
+            description=f"**{npc}** ha sido eliminado del universo Unity", 
+            color=0xff6600
+        )
+        embed.set_footer(text="Esta acción no se puede deshacer")
+        
+        await interaction.followup.send(embed=embed)
+        
+    except Exception as e:
+        logger.error(f"❌ Error borrando NPC: {e}")
+        await interaction.followup.send("❌ Error interno al borrar NPC")
 
 # ============= COMANDOS DE TIRADAS SIMPLIFICADOS =============
 
@@ -867,7 +1006,7 @@ async def roll_dice(interaction: discord.Interaction, personaje: str, tipo_dado:
         logger.error(f"❌ Error en tirada: {e}")
         await interaction.followup.send("❌ Error interno")
 
-@tree.command(name="tirada_npc", description="Ejecuta ataques de NPCs con stats fijas")
+@tree.command(name="tirada_npc", description="Ejecuta ataques y defensas de NPCs con stats fijas")
 async def npc_roll(interaction: discord.Interaction, npc: str):
     try:
         # Verificar que el NPC existe
@@ -882,16 +1021,20 @@ async def npc_roll(interaction: discord.Interaction, npc: str):
             
             nombre, sincronizado, cantidad = result
         
-        embed = discord.Embed(title=f"👹 {npc} - Seleccionar Ataque", 
-                            description="Elige el tipo de ataque del NPC:", color=0xff4444)
+        embed = discord.Embed(title=f"👹 {npc} - Seleccionar Acción", 
+                            description="Elige el tipo de acción del NPC:", color=0xff4444)
         
         if sincronizado:
             embed.add_field(name="🤝 NPCs Sincronizados", value=f"{cantidad} unidades", inline=True)
-            embed.add_field(name="💥 Daño", value="Base × Cantidad", inline=True)
+            embed.add_field(name="💥 Valores", value="Base × Cantidad", inline=True)
         else:
-            embed.add_field(name="👤 NPC Individual", value="Daño fijo", inline=True)
+            embed.add_field(name="👤 NPC Individual", value="Valores fijos", inline=True)
         
-        view = NPCAttackView(npc)
+        embed.add_field(name="🎯 Acciones Disponibles", 
+                       value="**Ataques:** ⚔️ Físico, 🔮 Mágico, 🏹 Distancia\n**Defensas:** 🛡️ Física, ✨ Mágica, 🏃 Esquivar", 
+                       inline=False)
+        
+        view = NPCActionView(npc)
         await interaction.response.send_message(embed=embed, view=view)
         
     except Exception as e:
@@ -1212,18 +1355,29 @@ async def npc_info(interaction: discord.Interaction, npc: str):
         
         embed.add_field(name="📊 Estadísticas", value=stats_text, inline=True)
         
-        damage_text = f"**Daño Base:**\n"
+        damage_text = f"**Ataques:**\n"
         damage_text += f"⚔️ Físico: {npc_data[3]}\n"
         damage_text += f"🏹 Distancia: {npc_data[4]}\n"
         damage_text += f"🔮 Mágico: {npc_data[5]}"
         
+        defense_text = f"**Defensas:**\n"
+        defense_text += f"🛡️ Física: {npc_data[6]}\n"
+        defense_text += f"✨ Mágica: {npc_data[7]}\n"
+        defense_text += f"🏃 Esquivar: {npc_data[8]}"
+        
         if sincronizado:
-            damage_text += f"\n\n**Daño Sincronizado:**\n"
+            damage_text += f"\n\n**Sincronizado:**\n"
             damage_text += f"⚔️ Físico: {npc_data[3] * cantidad}\n"
             damage_text += f"🏹 Distancia: {npc_data[4] * cantidad}\n"
             damage_text += f"🔮 Mágico: {npc_data[5] * cantidad}"
+            
+            defense_text += f"\n\n**Sincronizado:**\n"
+            defense_text += f"🛡️ Física: {npc_data[6] * cantidad}\n"
+            defense_text += f"✨ Mágica: {npc_data[7] * cantidad}\n"
+            defense_text += f"🏃 Esquivar: {npc_data[8] * cantidad}"
         
-        embed.add_field(name="💥 Sistema de Daño", value=damage_text, inline=True)
+        embed.add_field(name="💥 Ataques", value=damage_text, inline=True)
+        embed.add_field(name="🛡️ Defensas", value=defense_text, inline=True)
         
         if npc_data[11]:  # imagen_url
             embed.set_thumbnail(url=npc_data[11])
