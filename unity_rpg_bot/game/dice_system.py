@@ -4,8 +4,6 @@ Sistema de dados y combate para Unity RPG Bot
 import random
 from unity_rpg_bot.config.constants import PLAYER_ACTION_MAPPING, NPC_ACTION_MAPPING
 from unity_rpg_bot.database.manager import db
-from unity_rpg_bot.storage.excel_manager import excel_manager
-from unity_rpg_bot.game.inventory import inventory_system
 from unity_rpg_bot.utils.logging import logger
 
 
@@ -32,11 +30,13 @@ class DiceSystem:
             dict: Resultado detallado de la tirada o None si hay error
         """
         # Obtener estadísticas base del personaje
+        from unity_rpg_bot.storage.excel_manager import excel_manager
         base_stats = excel_manager.read_character_stats(character_name)
         if not base_stats:
             return None
         
         # Calcular bonos de items equipados
+        from unity_rpg_bot.game.inventory import inventory_system
         item_bonuses = inventory_system.calculate_equipped_bonuses(character_name)
         
         # Combinar estadísticas base con bonos de items

@@ -16,6 +16,10 @@ from unity_rpg_bot.storage.google_sheets import google_sheets
 
 # Comandos modulares
 from unity_rpg_bot.discord_bot.commands.character_commands import CharacterCommands
+from unity_rpg_bot.discord_bot.commands.npc_commands import NPCCommands
+from unity_rpg_bot.discord_bot.commands.combat_commands import CombatCommands
+from unity_rpg_bot.discord_bot.commands.item_commands import ItemCommands
+from unity_rpg_bot.discord_bot.commands.inventory_commands import InventoryCommands
 
 # UI Components (ya están importados en los comandos que los necesitan)
 
@@ -78,13 +82,19 @@ class UnityRPGBot:
         # Comandos de personajes
         CharacterCommands(self.tree)
         
-        # TODO: Aquí se añadirían los otros módulos de comandos:
-        # NPCCommands(self.tree)
-        # ItemCommands(self.tree)
-        # CombatCommands(self.tree)
-        # InventoryCommands(self.tree)
+        # Comandos de NPCs
+        NPCCommands(self.tree)
         
-        logger.info("🎮 Comandos modulares registrados")
+        # Comandos de combate
+        CombatCommands(self.tree)
+        
+        # Comandos de items
+        ItemCommands(self.tree)
+        
+        # Comandos de inventario
+        InventoryCommands(self.tree)
+        
+        logger.info("🎮 Todos los comandos modulares registrados exitosamente")
     
     async def start(self):
         """Inicia el bot"""

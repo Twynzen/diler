@@ -212,3 +212,87 @@ class CharacterCommands:
             except Exception as e:
                 logger.error(f"❌ Error borrando personaje: {e}")
                 await interaction.followup.send("❌ Error interno al borrar personaje")
+        
+        @self.tree.command(name="editar_personaje", description="Edita las estadísticas e imagen de tu personaje")
+        async def edit_character(
+            interaction: discord.Interaction, 
+            personaje: str, 
+            fuerza: int = None, 
+            destreza: int = None, 
+            velocidad: int = None,
+            resistencia: int = None, 
+            inteligencia: int = None, 
+            mana: int = None,
+            oro: int = None, 
+            imagen: discord.Attachment = None
+        ):
+            await interaction.response.defer()
+            
+            try:
+                # Verificar propiedad del personaje
+                with db.get_connection() as conn:
+                    cursor = conn.cursor()
+                    cursor.execute("SELECT usuario_id FROM personajes WHERE nombre = ?", (personaje,))
+                    result = cursor.fetchone()
+                    
+                    if not result:
+                        await interaction.followup.send(f"❌ Personaje **{personaje}** no encontrado")
+                        return
+                        
+                    if result[0] != str(interaction.user.id):
+                        await interaction.followup.send("❌ Solo puedes editar tus propios personajes")
+                        return
+                
+                # Actualizar imagen si se proporciona
+                imagen_url = None
+                if imagen:
+                    imagen_url = await image_handler.save_image(imagen, 'personaje', personaje)
+                    with db.get_connection() as conn:
+                        cursor = conn.cursor()
+                        cursor.execute("UPDATE personajes SET imagen_url = ? WHERE nombre = ?", (imagen_url, personaje))
+                        conn.commit()
+                
+                # Preparar nuevas estadísticas
+                new_stats = {}
+                if fuerza is not None: new_stats['fuerza'] = fuerza
+                if destreza is not None: new_stats['destreza'] = destreza
+                if velocidad is not None: new_stats['velocidad'] = velocidad
+                if resistencia is not None: new_stats['resistencia'] = resistencia
+                if inteligencia is not None: new_stats['inteligencia'] = inteligencia
+                if mana is not None: new_stats['mana'] = mana
+                
+                # Actualizar estadísticas en Excel
+                if new_stats:
+                    excel_manager.update_character_stats(personaje, new_stats)
+                
+                # Actualizar oro en base de datos
+                if oro is not None:
+                    with db.get_connection() as conn:
+                        cursor = conn.cursor()
+                        cursor.execute("UPDATE personajes SET oro = ? WHERE nombre = ?", (oro, personaje))
+                        conn.commit()
+                
+                # Crear embed de respuesta
+                embed = discord.Embed(
+                    title="✏️ Personaje Editado", 
+                    description=f"**{personaje}** actualizado exitosamente", 
+                    color=COLORS['SUCCESS']
+                )
+                
+                if new_stats:
+                    stats_text = '\n'.join([f"• **{k.title()}:** {v}" for k, v in new_stats.items()])
+                    embed.add_field(name="📊 Estadísticas Actualizadas", value=stats_text[:1024], inline=False)
+                
+                if oro is not None:
+                    embed.add_field(name="💰 Oro Actualizado", value=f"{oro} monedas", inline=True)
+                
+                if imagen:
+                    embed.add_field(name="🖼️ Imagen", value="Actualizada", inline=True)
+                    if imagen_url:
+                        embed.set_thumbnail(url=imagen_url)
+                
+                await interaction.followup.send(embed=embed)
+                
+            except Exception as e:
+                logger.error(f"❌ Error editando personaje: {e}")
+                await interaction.followup.send("❌ Error interno")
