@@ -1,1 +1,24 @@
 .env
+
+# Bases de datos SQLite (datos locales únicos por entorno)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups de base de datos
+*_backup_*.db
+
+# Archivos de datos específicos por entorno
+unity_data/*.db
+unity_data/*_backup_*.db
+
+# Logs (opcionales - comentar si quieres trackear logs)
+unity_data/logs/
+*.log
+
+# Credenciales de Google Sheets
+google-credentials.json
+
+# Directorios de datos específicos por usuario
+unity_data/personajes/
+unity_data/imagenes/

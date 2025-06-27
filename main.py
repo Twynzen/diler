@@ -20,6 +20,7 @@ from unity_rpg_bot.discord_bot.commands.npc_commands import NPCCommands
 from unity_rpg_bot.discord_bot.commands.combat_commands import CombatCommands
 from unity_rpg_bot.discord_bot.commands.item_commands import ItemCommands
 from unity_rpg_bot.discord_bot.commands.inventory_commands import InventoryCommands
+from unity_rpg_bot.discord_bot.commands.admin_commands import AdminCommands
 
 # UI Components (ya están importados en los comandos que los necesitan)
 
@@ -93,6 +94,9 @@ class UnityRPGBot:
         
         # Comandos de inventario
         InventoryCommands(self.tree)
+        
+        # Comandos administrativos (incluye MCP)
+        AdminCommands(self.tree)
         
         logger.info("🎮 Todos los comandos modulares registrados exitosamente")
     
