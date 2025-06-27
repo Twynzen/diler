@@ -100,6 +100,101 @@ class AdminCommands:
                 logger.error(f"❌ [MCP] Error en análisis: {e}")
                 await interaction.followup.send(f"❌ Error en análisis: {str(e)}")
         
+        @self.tree.command(name="admin_db_reset", description="[ADMIN] Resetea completamente la base de datos")
+        async def reset_database(interaction: discord.Interaction, confirmacion: str):
+            # Verificar permisos de administrador
+            if not interaction.user.guild_permissions.administrator:
+                await interaction.response.send_message("❌ Solo los administradores pueden usar este comando", ephemeral=True)
+                return
+            
+            # Verificar confirmación
+            if confirmacion.lower() != "confirmar":
+                await interaction.response.send_message("❌ Para resetear la base de datos, usa: `/admin_db_reset confirmacion:confirmar`", ephemeral=True)
+                return
+            
+            await interaction.response.defer()
+            
+            try:
+                logger.warning(f"🔄 [RESET] {interaction.user.display_name} solicitó reset completo de base de datos")
+                
+                import os
+                import shutil
+                from datetime import datetime
+                
+                db_path = "unity_data/unity_master.db"
+                
+                if not os.path.exists(db_path):
+                    embed = discord.Embed(
+                        title="⚠️ Base de Datos No Existe",
+                        description="No se encontró base de datos para resetear",
+                        color=COLORS['WARNING']
+                    )
+                    await interaction.followup.send(embed=embed)
+                    return
+                
+                # Crear backup antes de eliminar
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                backup_path = f"unity_data/unity_master_backup_reset_{timestamp}.db"
+                
+                try:
+                    shutil.copy2(db_path, backup_path)
+                    backup_created = True
+                except Exception as e:
+                    logger.error(f"❌ Error creando backup: {e}")
+                    backup_created = False
+                
+                # Eliminar base de datos
+                try:
+                    os.remove(db_path)
+                    reset_success = True
+                except Exception as e:
+                    logger.error(f"❌ Error eliminando DB: {e}")
+                    reset_success = False
+                
+                # Crear embed con resultados
+                if reset_success:
+                    embed = discord.Embed(
+                        title="🔄 Base de Datos Reseteada",
+                        description="La base de datos ha sido eliminada completamente",
+                        color=COLORS['SUCCESS']
+                    )
+                    
+                    embed.add_field(
+                        name="📋 Acciones Realizadas",
+                        value="✅ Base de datos eliminada\n🔄 Se creará nueva al reiniciar el bot",
+                        inline=False
+                    )
+                    
+                    if backup_created:
+                        embed.add_field(
+                            name="💾 Backup",
+                            value=f"Backup automático: `{os.path.basename(backup_path)}`",
+                            inline=False
+                        )
+                    
+                    embed.add_field(
+                        name="⚠️ Importante",
+                        value="**Reinicia el bot** para crear una base de datos limpia con schema actualizado",
+                        inline=False
+                    )
+                    
+                    embed.set_footer(text="🤖 Reset completado por MCP")
+                    
+                else:
+                    embed = discord.Embed(
+                        title="❌ Error en Reset",
+                        description="No se pudo eliminar la base de datos",
+                        color=COLORS['ERROR']
+                    )
+                
+                await interaction.followup.send(embed=embed)
+                
+                logger.warning(f"🔄 [RESET] Reset completado - Backup: {backup_created}")
+                
+            except Exception as e:
+                logger.error(f"❌ [RESET] Error en reset: {e}")
+                await interaction.followup.send(f"❌ Error en reset: {str(e)}")
+        
         @self.tree.command(name="admin_db_fix", description="[ADMIN] Aplica correcciones automáticas a la DB")
         async def fix_database(interaction: discord.Interaction):
             # Verificar permisos de administrador
